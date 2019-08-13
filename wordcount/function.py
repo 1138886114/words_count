@@ -22,3 +22,7 @@ def count(request):
     return render(request, 'count.html',{'key_total_count':total_count,
                                          'key_text': user_text,
                                          'key_sort_dict': Sortword_dict,})
+
+
+def about(request):
+    return render(request, 'about.html')
